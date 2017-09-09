@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NasaDailyImage</string>
+    <string name="test_image_title">Space Stations EarthKAM Sees the Grand Canyon</string>
+    <string name="test_image_date">Tue, 30 May 2017 11:57 EDT</string>
+    <string name="test_image_description">On April 3, 2017, the student controlled EarthKAM camera aboard the International Space Station captured this photograph of a favorite target - the Grand Canyon - from low Earth orbit. The camera has been aboard the orbiting outpost since the first space station expedition began in November 2000 and supports approximately four missions annually.
+    The purpose of writing more unrelated stuff is just to check if the scroll view is working properly or not and i want
+    your help to allow me doing this and also it might help a little me to improve my typing as well. Lets see then
+    if it worked or not. Lets keep finger cross and hope for the best. I am pretty sure it will work and make my nasa
+    app wonderful. Lets check it out now. Enough writing.</string>
+    <string name="refresh">REFRESH</string>
+    <string name="setWallpaper">SET AS WALLPAPER</string>
+    <string name="imageview">imageview</string>
+    <string name="image">image</string>
+</resources>

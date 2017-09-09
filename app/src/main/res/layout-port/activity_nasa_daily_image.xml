@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF000000">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/image_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/test_image_title"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:id="@+id/pubDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="@string/test_image_date"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="400dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@mipmap/image"
+            android:contentDescription="@string/image" />
+
+        <TextView
+            android:id="@+id/imageDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:ems="100"
+            android:paddingTop="10dp"
+            android:text="@string/test_image_description"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff8D8D8D"
+    android:layout_marginTop="5dp"
+    android:padding="5dp"
+    android:gravity="center_horizontal"
+    android:layout_weight="0"
+    >
+    <Button style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:onClick="onRefresh"
+        />
+    <Button style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/setWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:onClick="onSetWallpaper"/>
+</LinearLayout>
+
+</LinearLayout>
